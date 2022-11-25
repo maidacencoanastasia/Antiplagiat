@@ -89,3 +89,5 @@ fig = go.Figure(data=go.Heatmap(
 fig.update_layout({"height":height*28, "width":1000, "font":{"family":"Courier New"}})
 fig['layout']['yaxis']['autorange'] = "reversed"
 fig.show()
+
+#pip install nltk
